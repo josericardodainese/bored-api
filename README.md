@@ -1,0 +1,1 @@
+This API uses https://www.boredapi.com/

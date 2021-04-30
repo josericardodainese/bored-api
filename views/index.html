@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>Bored API</head>
+<style>
+    .wrapper {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #8956FF;
+    }
+
+    .its-friday {
+        background-color: #8956FF;
+    }
+
+    .aligner {
+        margin: 4rem;
+    }
+
+    .item {
+        align-self: center;
+        margin: auto;
+        text-align: center;
+    }
+
+    .its-friday .tagline {
+        color: #fff;
+    }
+
+    @media (min-width: 800px) {
+        .tagline {
+            font: 300 3rem/2.8rem Roboto Mono, monospace;
+        }
+    }
+
+    #text,
+    .tagline {
+        text-transform: uppercase;
+    }
+
+    .tagline {
+        font: 300 2rem/2.5rem Roboto Mono, monospace;
+        margin-bottom: 1em;
+        color: #999;
+        padding: 14px 0 13px;
+    }
+
+    blockquote,
+    body,
+    dd,
+    dl,
+    figure,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    hr,
+    li,
+    ol,
+    p,
+    pre,
+    ul {
+        margin: 0;
+        line-height: 1em;
+    }
+
+    *,
+    :after,
+    :before {
+        -webkit-box-sizing: inherit;
+        box-sizing: inherit;
+    }
+
+    h3 {
+        display: block;
+        font-size: 1.17em;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+    }
+    #reload {
+        display: inline-block;
+        font: 300 1.5rem/1.5rem Roboto Mono,monospace;
+        border: 0;
+        background: transparent;
+        cursor: pointer;
+        text-decoration: none;
+        color: #ddd;
+        margin-top: 4rem;
+        outline: none;
+    }
+</style>
+
+<body>
+    <div class="wrapper its-friday">
+        <div class="aligner">
+            
+            <div class="item">
+                <img src="http://iconbug.com/data/ac/128/d207c0336dc5d3c3bfa6557c46699171.png" class="image">
+                <h3 class="tagline">${pt}</h3>
+                <h2 id="text">${english}</h2>
+                <a href="./" id="reload">Hit me again</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
