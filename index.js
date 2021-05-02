@@ -19,6 +19,8 @@ async function getBoredApiResult() {
     const pt = response.translation;
     return {english, pt}
 }
+
+process.env["NODE_TLS_REJECT_UNAUTHORIZED"] = 0;
 app.engine('html', es6Renderer);
 app.set('views', 'views');
 app.set('view engine', 'html');
@@ -29,6 +31,6 @@ app.get('/', async (_req, res) => {
 });
 
 
-app.listen(8080, () => {
-    console.log("Servidor rodando na porta 8080");
+app.listen(8082, () => {
+    console.log("Servidor rodando na porta 8082");
 });
